@@ -12,9 +12,14 @@ body {
 .container {
     width: 1024px;
     margin: 0 auto;
+
+    border: 2px solid #5c91b3;
+    border-radius: 4px;
+
     box-shadow:
-        rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
-        rgba(0, 0, 0, 0.9) 0px 0px 0px 5px;
+        0 0 0 1px #1c3b55,
+        0 0 8px rgba(92, 145, 179, 0.7),
+        0 0 25px rgba(49, 91, 120, 0.4);
 }
 
 header {

@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-color: #0b1723;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    box-shadow:
+        rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+        rgba(0, 0, 0, 0.9) 0px 0px 0px 5px;
+}
+
+header {
+    background-image: url("images/header.png");
+    height: 160px;
+}
+
+section {
+    display: flex;
+}
+
+nav {
+    background-color: #1c3b55;
+    width: 30%;
+}
+
+article {
+    background-color: #dceaf2;
+    width: 70%;
+    padding: 10px;
+}
+
+footer {
+    background-color: #142b3d;
+    text-align: center;
+    padding: 25px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    background-color: #315b78;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #0b1723;
+    background-color: #5c91b3;
+}
+
+a:active {
+    color: #b9e4ff;
+}
